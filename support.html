@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeALocal — Поддержка / Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="dot"></span>WeALocal</div>
+      <nav>
+        <a href="#ru">Русский</a>
+        <a href="#en">English</a>
+        <a href="index.html">Конфиденциальность / Privacy</a>
+      </nav>
+    </header>
+
+    <section id="ru">
+      <h1>Поддержка</h1>
+      <p class="meta">WeALocal — диагностика сети: проверка доступности сайтов прямо с вашего устройства.</p>
+
+      <h2>Частые вопросы</h2>
+
+      <h3>Сайт помечен как недоступный, но в браузере открывается. Почему?</h3>
+      <p>Чаще всего дело в различии путей: браузер мог показать закэшированную копию,
+      использовать другой DNS или VPN-расширение, а сайт — отвечать по-разному для
+      разных подсетей CDN. Запустите проверку ещё раз; в детальном отчёте видно, на
+      каком уровне (DNS, TCP, TLS, HTTP) обрывается соединение.</p>
+
+      <h3>Что означает статус «медленно»?</h3>
+      <p>Сайт ответил и открывается, но время ответа заметно выше обычного. Это не
+      блокировка — только показатель качества соединения до конкретного сайта.</p>
+
+      <h3>Как добавить свой сайт или TCP-порт?</h3>
+      <p>Откройте «Мои сайты» (иконка настроек на главном экране) и нажмите «Добавить
+      сайт». Кроме обычной HTTPS-проверки, можно проверять доступность произвольного
+      TCP-порта — удобно для нестандартных сервисов.</p>
+
+      <h3>Как вернуть стандартный список сайтов?</h3>
+      <p>«Мои сайты» → «Восстановить стандартные списки». Добавленные и изменённые
+      сайты будут удалены, вернётся встроенный набор.</p>
+
+      <h3>Какие данные собирает приложение?</h3>
+      <p>Никакие: без аккаунтов, аналитики и рекламы, всё работает на устройстве.
+      Подробности — в <a href="index.html">политике конфиденциальности</a>.</p>
+
+      <h2>Связаться с нами</h2>
+      <p>Не нашли ответ — напишите:
+      <a href="mailto:coder.gosha@gmail.com">coder.gosha@gmail.com</a>.
+      Укажите модель устройства, версию iOS и, если возможно, скриншот — так мы
+      разберёмся быстрее.</p>
+    </section>
+
+    <hr>
+
+    <section id="en" lang="en">
+      <h1>Support</h1>
+      <p class="meta">WeALocal — network diagnostics: check site availability straight from your device.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>A site is marked unreachable, but it opens in my browser. Why?</h3>
+      <p>Usually the paths differ: the browser may have served a cached copy, used a
+      different DNS or a VPN extension, or the site may answer differently across CDN
+      subnets. Run the check again; the detailed report shows at which layer (DNS, TCP,
+      TLS, HTTP) the connection breaks.</p>
+
+      <h3>What does the "slow" status mean?</h3>
+      <p>The site responded and loads, but noticeably slower than usual. It is not a
+      block — just a quality indicator for the connection to that specific site.</p>
+
+      <h3>How do I add my own site or TCP port?</h3>
+      <p>Open "My Sites" (the settings icon on the main screen) and tap "Add Site".
+      Besides the regular HTTPS check, you can also test the reachability of an
+      arbitrary TCP port — useful for non-website services.</p>
+
+      <h3>How do I restore the default site list?</h3>
+      <p>"My Sites" → "Restore Default Lists". Added and edited sites are removed and
+      the built-in set comes back.</p>
+
+      <h3>What data does the app collect?</h3>
+      <p>None: no accounts, no analytics, no ads — everything runs on device. Details
+      in the <a href="index.html">privacy policy</a>.</p>
+
+      <h2>Contact us</h2>
+      <p>Didn't find an answer? Write to
+      <a href="mailto:coder.gosha@gmail.com">coder.gosha@gmail.com</a>.
+      Please include your device model, iOS version and, if possible, a screenshot —
+      it helps us resolve things faster.</p>
+    </section>
+
+    <footer>WeALocal · <a href="index.html">Политика конфиденциальности / Privacy Policy</a></footer>
+  </div>
+</body>
+</html>

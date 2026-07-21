@@ -44,9 +44,13 @@
         Cloudflare Public DNS Resolver</a>.</li>
         <li><strong>Определение параметров подключения.</strong> Чтобы показать вам
         ваш внешний IP-адрес, провайдера и страну на экране результатов, приложение
-        обращается к публичному сервису <a href="https://ipwho.is/">ipwho.is</a>.
-        Запрос не содержит никаких данных, кроме стандартных сетевых метаданных самого
-        соединения; ответ отображается на устройстве и никуда не передаётся.</li>
+        обращается к одному из публичных сервисов —
+        <a href="https://ipwho.is/">ipwho.is</a>, <a href="https://ipinfo.io/">ipinfo.io</a>
+        или <a href="https://freeipapi.com/">freeipapi.com</a> — пробуя их по очереди,
+        пока один не ответит (это защита от временной недоступности отдельного сервиса,
+        например в некоторых мобильных сетях). Запрос не содержит никаких данных, кроме
+        стандартных сетевых метаданных самого соединения; ответ отображается на устройстве,
+        скрыт по умолчанию за отдельным тапом и никуда не передаётся.</li>
       </ul>
       <p class="dim">Никакие результаты этих запросов не покидают ваше устройство и не
       передаются разработчику.</p>
@@ -93,10 +97,14 @@
         <a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Cloudflare
         Public DNS Resolver privacy policy</a>.</li>
         <li><strong>Connection details lookup.</strong> To show you your own external
-        IP address, provider, and country on the results screen, the app queries the
-        public service <a href="https://ipwho.is/">ipwho.is</a>. The request carries
-        nothing beyond the standard network metadata of the connection itself; the
-        response is displayed on device and never transmitted anywhere.</li>
+        IP address, provider, and country on the results screen, the app queries one of
+        several public services — <a href="https://ipwho.is/">ipwho.is</a>,
+        <a href="https://ipinfo.io/">ipinfo.io</a>, or
+        <a href="https://freeipapi.com/">freeipapi.com</a> — trying each in turn until one
+        answers (a safeguard against any single service being temporarily unreachable, e.g.
+        on some mobile networks). The request carries nothing beyond the standard network
+        metadata of the connection itself; the response is displayed on device, hidden
+        behind a tap by default, and never transmitted anywhere.</li>
       </ul>
       <p class="dim">No results of these requests ever leave your device or reach the
       developer.</p>
